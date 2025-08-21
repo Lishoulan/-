@@ -1,0 +1,21 @@
+
+
+# 数据集根目录
+path: F:/ultralytics-main
+
+# 训练、验证和测试集路径 (相对于path)
+train: dataset\augmented\images  # 训练图像目录
+val:      # 验证图像目录
+test:    # 测试集 (可选)
+
+# 类别数量和名称
+nc: 8
+names:
+  0: hanyan
+  1: zhadian
+  2: handon
+  3: hangao
+  4: hanzha
+  5: duanhan 
+  6: hanchuan
+  7: hanpian
